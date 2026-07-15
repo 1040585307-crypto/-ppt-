@@ -15,11 +15,11 @@ from pydantic import BaseModel
 from ppt_engine import create_ppt_from_json
 
 # ================= 凭证配置 =================
-COZE_TOKEN = "pat_1k3bNSDqLFUcEHaEpPhTYMYI95E4pd0BDB9ERM22P4C0AWrHsp2oP6Gymmfu4SWI"
-WORKFLOW_ID = "7662195235627581445"
+COZE_TOKEN = ""
+WORKFLOW_ID = ""
 COZE_API_URL = "https://api.coze.com/v1/workflow/run"
 
-app = FastAPI(title="泰迪科技 AI PPT 生成引擎API")
+app = FastAPI(title="AI PPT 生成引擎API")
 
 # 跨域设置，兼容主流浏览器请求
 app.add_middleware(

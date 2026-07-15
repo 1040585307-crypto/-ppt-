@@ -1,7 +1,6 @@
 # AI一键生成PPT演示文稿 - 系统交付与部署文档
 
 
-
 ## 1. 系统架构与技术栈规范
 * **前端 (Frontend):** 原生 HTML5 + CSS3 + ES6 JavaScript。极致轻量，响应式支持，完全兼容最新的 Chrome, Edge, Safari 浏览器。
 * **后端 (Backend):** Python 3.9 + FastAPI。依靠异步高性能 ASGI 架构，满足 10 个以上并发用户平滑调度。
