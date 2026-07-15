@@ -14,3 +14,4 @@
 2. 在项目根目录下打开终端，装载包依赖：
    ```bash
    pip install -r requirements.txt
+3.API和id自行配置
